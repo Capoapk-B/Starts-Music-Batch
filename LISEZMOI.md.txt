@@ -1,0 +1,29 @@
+ Starts Music Batch ♫
+
+Starts Music Batch est un script Batch Windows multifonctionnel qui s'appuie sur PowerShell pour offrir un ensemble d'outils audio, incluant un lecteur multimédia graphique, un convertisseur texte-vers-voix (TTS), et un compositeur de musique
+
+ Fonctionnalités
+
+ Lecteur Multimédia Graphique : Une interface WPF intégrée (générée via PowerShell) permettant de lire vos fichiers audio locaux (`mp3`, `wav`, etc) et d'écouter des webradios en direct grâce à l'API Radio Browser
+ Créateur de Livre Audio : Convertit des fichiers texte (`txt`) encodés en UTF-8 en fichiers audio `wav` en utilisant le synthétiseur vocal natif de Windows Gère automatiquement la découpe des textes longs
+ Composition Musicale Manuelle : Transforme votre clavier d'ordinateur en piano virtuel Vous pouvez jouer des notes en temps réel, enregistrer votre composition et l'exporter directement en fichier `wav` (génération d'ondes sinusoïdales)
+ Générateur de Musique Aléatoire : Génère automatiquement une séquence de notes aléatoires et l'exporte en fichier audio
+ Gestion des Fichiers : Crée et surveille automatiquement un répertoire de travail dédié (`Starts Music Batch`) pour suivre vos fichiers textes et audio
+
+ Prérequis
+
+ Windows 10 ou Windows 11
+ Windows PowerShell (préinstallé sur Windows)
+ Assurez-vous que vos fichiers `txt` utilisés pour la fonction Livre Vocal sont encodés en UTF-8
+
+ Utilisation
+
+1 Double-cliquez sur le fichier `pmb FRbat` pour lancer le script
+2 Lors du premier lancement, un dossier nommé `Starts Music Batch` sera créé dans le même répertoire
+3 Placez vos fichiers `txt` (pour la lecture) ou vos fichiers audio (pour le lecteur) dans ce nouveau dossier
+4 Utilisez le menu numérique interactif (1-8) dans la console pour naviguer entre les différentes options
+
+ Licence & Crédits
+
+ Auteur : CAPOAPK
+ Copyright : 2026 © Starts Music Batch Tous droits réservés
